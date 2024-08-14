@@ -700,10 +700,13 @@ input, select, textarea {
 			width: 100%;
 			max-width: 100%; /* Ensures the image does not exceed the container's width */
 			max-height: 100%; /* Ensures the image does not exceed the container's height */
+			text-align: center; /* Centers the image container's content */
 		}
 
 			.image.main img {
+				display: block;
 				width: 100%;
+				margin: 0 auto; /* Centers the image horizontally */
 				height: auto; /* Maintains the aspect ratio */
 				object-fit: contain; /* Ensures the image fits within the container without cropping */
 			}
