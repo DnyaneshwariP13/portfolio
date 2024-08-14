@@ -705,7 +705,7 @@ input, select, textarea {
 
 			.image.main img {
 				display: block;
-				width: 80%;
+				width: 100%;
 				margin: 0 auto; /* Centers the image horizontally */
 				height: auto; /* Maintains the aspect ratio */
 				object-fit: contain; /* Ensures the image fits within the container without cropping */
